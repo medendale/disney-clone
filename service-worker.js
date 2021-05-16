@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/medendale/disney-clone/precache-manifest.a28bbbf7c004696de4c9b3c71650094c.js"
+  "/disney-clone/precache-manifest.6a51a55c8dd2927fba438395dd8057ae.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/medendale/disney-clone/index.html", {
+workbox.routing.registerNavigationRoute("/disney-clone/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
